@@ -50,12 +50,10 @@ function reset() {
         for (j = 0; j < i; j++) {
             // make sure we didn't see this value and set it to anther crystal already (guarantee uniqueness)
             if (crystals[i] === crystals[j]) {
-                // alert("we have a dup!  The crystals[" + i + "] is the same as crsytals[" + j + "] " + crystals[i] + ":" + crystals[j]);
                 crystals[i] = getRandomInt(1, 12);  // go get another one since it dup'd
                 // now we have a newly generated random number we need to check for dups from the beginning again
                 j = -1;
             }
         }
     }
-    // console.log("the crystals array has: " + crystals);
 }
