@@ -7,4 +7,5 @@ the wins/losses is updated on the navbar and then the game resets for a new turn
 This game makes use of bootstrap to be responsive.  I also ensured each of the shapes gets a unique value between 1 and 12 via a
 nested for loop.  Game also uses jQuery. 
 
-I linked it to my portfolio.
+I linked it to my portfolio.  So, now if you load my portfolio, you will see this project as well as the word guess project linked
+in the Portfolio tab.  My portfolio is here:  https://cbo2.github.io/Bootstrap-Portfolio/portfolio.html
