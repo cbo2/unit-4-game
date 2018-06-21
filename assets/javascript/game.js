@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     reset();
 
-    $(".crystal").on("click", function() {
+    $(".btn .crystal").on("click", function() {
         var crystal = $(this).val() - 1;    // call val() to get the reference of which crystal was clicked
         userScore += crystals[crystal];     // add the hidden value of that crystal to the total
         $("#userScore").text(userScore);
