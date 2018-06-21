@@ -7,10 +7,11 @@ var crystals = [0, 0, 0, 0];   // the intial values for all 4 crystals
 
 $(document).ready(function() {
     $("#yourScore").text("999");
+    
 
     reset();
 
-    $(".btn").on("click", function() {
+    $(".crystal").on("click", function() {
         var crystal = $(this).val() - 1;    // call val() to get the reference of which crystal was clicked
         userScore += crystals[crystal];     // add the hidden value of that crystal to the total
         $("#userScore").text(userScore);
